@@ -83,7 +83,7 @@ const SidebarNav = ({ pages, onClose }) => {
                     {t('code-example')}
                   </LinkStyled>
                 </MenuItem>
-                <MenuItem onClick={onMenuClick}>
+                {/* <MenuItem onClick={onMenuClick}>
                   <LinkStyled href='/#reviews'>
                     {t('reviews')}
                   </LinkStyled>
@@ -92,7 +92,7 @@ const SidebarNav = ({ pages, onClose }) => {
                   <LinkStyled href='/#partners'>
                     {t('partners')}
                   </LinkStyled>
-                </MenuItem>
+                </MenuItem> */}
                 <MenuItem onClick={onMenuClick}>
                   <LinkStyled href='/#headline'>
                     {t('contacts')}

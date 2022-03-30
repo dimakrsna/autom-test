@@ -6,8 +6,10 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
-import RocketIllustration from '../../../../public/svg/illustrations/Rocket';
+// import RocketIllustration from '../../../../public/svg/illustrations/Rocket';
+import image1 from '../../../../public/images/Illustration-1.jpeg';
 import { useTranslation } from 'next-i18next';
+import { ImageStyled } from './styles';
 
 const Hero = () => {
   const theme = useTheme();
@@ -65,7 +67,8 @@ const Hero = () => {
           alignItems={'center'}
         >
           <Box height={'100%'} width={'100%'} maxHeight={600}>
-            <RocketIllustration width={'100%'} height={'100%'} />
+            <ImageStyled src={image1} alt="img" />
+            {/* <RocketIllustration width={'100%'} height={'100%'} /> */}
           </Box>
         </Box>
       </Grid>

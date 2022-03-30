@@ -5,7 +5,8 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import { ImageStyled } from './styles';
-import droneImage from '../../../../public/images/drone.png';
+// import droneImage from '../../../../public/images/drone.png';
+import image2 from '../../../../public/images/Illustration-2.jpeg';
 import { useTranslation } from 'next-i18next';
 
 const AutomatedDriving = () => {
@@ -49,7 +50,7 @@ const AutomatedDriving = () => {
           md={6}
           width={'100%'}
         >
-          <ImageStyled loading="lazy" src={droneImage} alt="drone" />
+          <ImageStyled loading="lazy" src={image2} alt="drone" />
         </Grid>
         <Grid item xs={12} md={6} container alignItems={'center'}>
           <Box data-aos={isMd ? 'fade-left' : 'fade-up'}>

@@ -4,7 +4,8 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
-import droneImage from '../../../../public/images/drone.png';
+// import droneImage from '../../../../public/images/drone.png';
+import image3 from '../../../../public/images/Illustration-3.jpeg';
 import { ImageStyled } from './styles';
 import { useTranslation } from 'next-i18next';
 
@@ -30,7 +31,7 @@ const FromAirToTrafic  = () => {
           md={6}
           width={'100%'}
         >
-          <ImageStyled src={droneImage} alt="img" />
+          <ImageStyled src={image3} alt="img" />
         </Grid>
         <Grid item xs={12} md={6} container alignItems={'center'}>
           <Box data-aos={isMd ? 'fade-left' : 'fade-up'}>
