@@ -1,0 +1,9 @@
+In the logo I use the "Gotham Medium" Font.
+Color CMYK
+Dark Blue C:100 M:91 Y:46 K:8 (#283F65)
+Middle Blue C:88 M:52 Y:0 K:0 (#116FB7)
+Light Blue C:75 M:20 Y:0 K:0 (#1DA0DB)
+Color RGB 
+Dark Blue R:44 G:62 B:104 (#2C3E68)
+Middle Blue R:20 G:112 B:184 (1470B8)
+Light blue R:0 G:162 B:233 (#00A2E9)

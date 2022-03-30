@@ -1,0 +1,28 @@
+{
+  "enter-email-error": "Enter your email",
+  "valid-email-error": "Please enter a valid email address",
+  "email-is-required": "Email is required.",
+  "message-cannot-contain-more": "The message cannot contain more than 500 characters",
+
+  
+  "hire-us": "Hire us",
+  "get-the-complete-dataset": "Holen Sie sich den kompleEen Datensatz kostenlos",
+  "please-give-us-some-hints": "Biten teilen Sie ein paar Infos mit uns, wer Sie sind, wofür Sie die Daten benutzen möchten und welche Daten Sie in Zukun^ gebrauchen könnten. Das Ausfüllen dieser Umfrage ist völlig freiwillig, wird aber sehr dazu beitragen, in Zukunft noch bessere Daten bereitzustellen.",
+  "tell-us-your-first-name": "Bitte verraten Sie uns Ihren Namen *",
+  "first-name": "Vornamen",
+  "tell-us-your-last-name": "Bitte nennen Sie uns Ihren Nachnamen *",
+  "last-name": "Nachname",
+  "your-email-address": "Bitte geben Sie Ihre eMailadresse ein *",
+  "email": "eMailadresse",
+  "enter-your-phone-number": "Bitte geben Sie Ihre Telefonnummer ein (optional)",
+  "phone-number": "Phone number",
+  "company-optional": "Firma",
+  "company": "Firma",
+  "what-dataset-for": "Für was möchten Sie die Daten verwenden?",
+  "what-kind-of-scenario": "Welche Art von Scenario wäre für Sie am interessantesten?",
+  "what-most-important-quality-aspects": "Was sind für Sie die wichtigsten Qualitätsaspekte der Daten?",
+  "anything-else": "Möchten Sie uns noch etwas mitteilen?",
+  "allowed-to-contact-you": "Dürfen wir Sie kontaktieren, um uns kurz über Ihre Bedürfnisse und weitere Verbesserungen der Daten auszutauschen?",
+  "submit-and-download": "Abschicken und downloaden",
+  "get-back-to-you": "We'll get back to you in 1-2 business days."
+}

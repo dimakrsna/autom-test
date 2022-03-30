@@ -1,0 +1,28 @@
+{
+  "enter-email-error": "Enter your email",
+  "valid-email-error": "Please enter a valid email address",
+  "email-is-required": "Email is required.",
+  "message-cannot-contain-more": "The message cannot contain more than 500 characters",
+
+  
+  "hire-us": "Hire us",
+  "get-the-complete-dataset": "Get the complete Dataset for Free",
+  "please-give-us-some-hints": "Please give us some hints who you are, what you plan to do with the data and which data you need the most. Fill out this survey is completely voluntary but will help a lot to provide even better data in the future.",
+  "tell-us-your-first-name": "Please tell us your First name (optional)",
+  "first-name": "First name",
+  "tell-us-your-last-name": "Please tell us your Last name (optional)",
+  "last-name": "Last name",
+  "your-email-address": "Please enter your email address *",
+  "email": "Email",
+  "enter-your-phone-number": "Please enter your phone number (optional)",
+  "phone-number": "Phone number",
+  "company-optional": "Company (optional)",
+  "company": "Company",
+  "what-dataset-for": "For what do you would like to use the dataset? (optional)",
+  "what-kind-of-scenario": "What kind of scenario would be the most interesting for you? (optional)",
+  "what-most-important-quality-aspects": "What are the most important quality aspects of the data for you? (optional)",
+  "anything-else": "Do you have anything else you want to tell us? (optional)",
+  "allowed-to-contact-you": "Are we allowed to contact you to have a short chat about your needs and further improvement of your data?",
+  "submit-and-download": "Submit and download",
+  "get-back-to-you": "We'll get back to you in 1-2 business days."
+}
