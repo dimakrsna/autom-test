@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import { useFormik } from 'formik';
 import * as yup from 'yup';
 import Box from '@mui/material/Box';
@@ -8,6 +8,10 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { useTranslation } from 'next-i18next';
+import emailjs from '@emailjs/browser';
+import { ErrorMessage } from './styles';
+import { CircularProgress } from '@mui/material';
+import { NotificationManager } from 'react-notifications';
 
 const validationSchema = yup.object({
   firstName: yup
@@ -42,18 +46,42 @@ const validationSchema = yup.object({
 
 const Form = () => {
   const { t } = useTranslation('home');
+  const form = useRef();
+  const [isRequested, setRequested] = useState(false);
+  const [errorMessage, setErrorMessage] = useState('');
 
   const initialValues = {
     firstName: '',
     lastName: '',
     email: '',
     phone: '',
-    budget: '',
     message: '',
   };
 
-  const onSubmit = (values) => {
-    // send request here
+  const onSubmit = (values, { resetForm }) => {
+    setRequested(true)
+
+    const request = emailjs.sendForm(
+      process.env.EMAILJS_SERVICE_ID,
+      process.env.EMAILJS_TEMPLATE_ID_CONTACTS_FORM,
+      form.current,
+      process.env.EMAILJS_USER_ID
+    )
+
+    request.then(response => {
+      if (response.status !== 200) {
+        setErrorMessage(response.text)
+      } else {
+        setErrorMessage('');
+        NotificationManager.success('Sent successfully!', '', 5000);
+        resetForm();
+      }
+      setRequested(false)
+    }).catch(error => {
+      setErrorMessage(error?.text)
+      setRequested(false)
+    })
+
     return values;
   };
 
@@ -65,7 +93,7 @@ const Form = () => {
 
   return (
     <Box>
-      <form onSubmit={formik.handleSubmit}>
+      <form onSubmit={formik.handleSubmit} ref={form}>
         <Box
           component={Grid}
           marginBottom={{ xs: 10, sm: 0 }}
@@ -73,9 +101,9 @@ const Form = () => {
           spacing={4}
         >
           <Grid item xs={12} sm={6}>
-            <Typography variant={'subtitle2'} sx={{ marginBottom: 2 }}>
+            {/*<Typography variant={'subtitle2'} sx={{ marginBottom: 2 }}>
               {t('tell-us-your-first-name')}
-            </Typography>
+            </Typography>*/}
             <TextField
               label={t('first-name')}
               variant="outlined"
@@ -90,9 +118,9 @@ const Form = () => {
             />
           </Grid>
           <Grid item xs={12} sm={6}>
-            <Typography variant={'subtitle2'} sx={{ marginBottom: 2 }}>
+            {/*<Typography variant={'subtitle2'} sx={{ marginBottom: 2 }}>
               {t('tell-us-your-last-name')}
-            </Typography>
+            </Typography>*/}
             <TextField
               label={t('last-name')}
               variant="outlined"
@@ -105,9 +133,9 @@ const Form = () => {
             />
           </Grid>
           <Grid item xs={12} sm={6}>
-            <Typography variant={'subtitle2'} sx={{ marginBottom: 2 }}>
+            {/*<Typography variant={'subtitle2'} sx={{ marginBottom: 2 }}>
               {t('your-email-address')}
-            </Typography>
+            </Typography>*/}
             <TextField
               label={t('email')}
               variant="outlined"
@@ -120,9 +148,9 @@ const Form = () => {
             />
           </Grid>
           <Grid item xs={12} sm={6}>
-            <Typography variant={'subtitle2'} sx={{ marginBottom: 2 }}>
+            {/*<Typography variant={'subtitle2'} sx={{ marginBottom: 2 }}>
               {t('enter-your-phone-number')}
-            </Typography>
+            </Typography>*/}
             <TextField
               label={t('phone-number')}
               variant="outlined"
@@ -135,9 +163,9 @@ const Form = () => {
             />
           </Grid>
           <Grid item xs={12}>
-            <Typography variant={'subtitle2'} sx={{ marginBottom: 2 }}>
+            {/*<Typography variant={'subtitle2'} sx={{ marginBottom: 2 }}>
               {t('about-your-project')}
-            </Typography>
+            </Typography> */}
             <TextField
               label={t('message')}
               variant="outlined"
@@ -160,15 +188,16 @@ const Form = () => {
             flexDirection={'column'}
             mb={4}
           >
-            <Button size={'large'} variant={'contained'} type={'submit'}>
-              {t('send-request')}
+            {errorMessage && <ErrorMessage>{errorMessage}</ErrorMessage>}
+            <Button disabled={isRequested} size={'large'} variant={'contained'} type={'submit'}>
+              {isRequested ? <CircularProgress size={20} color="inherit" /> : t('send-request')}
             </Button>
             <Typography
               variant={'subtitle2'}
               color={'textSecondary'}
               sx={{ marginTop: 2 }}
               align={'center'}
-              >
+            >
               {t('well-get-back-to-you')}
             </Typography>
           </Grid>
@@ -177,5 +206,6 @@ const Form = () => {
     </Box>
   );
 };
+
 
 export default Form;

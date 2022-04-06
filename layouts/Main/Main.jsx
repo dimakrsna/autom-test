@@ -42,6 +42,9 @@ const Main = ({
     setOpenSidebar(false);
   };
 
+  setThemePalette("blue")
+
+
   return (
     <div>
       <HideOnScroll>

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Image from 'next/image';
 
 export const LocationList = styled.ul`
   list-style-type: none;
@@ -19,3 +20,10 @@ export const LocationItem = styled.li`
     top: -1px;
   }
 `
+
+
+export const ImageStyled = styled(Image)`
+  max-width: 580px;
+  width: 100%;
+`
+

@@ -84,7 +84,7 @@ const Features = () => {
                   </Box>
                   <Box
                     component={Typography}
-                    variant={'h6'}
+                    variant={'h4'}
                     gutterBottom
                     sx={{ fontWeight: 500 }}
                   >

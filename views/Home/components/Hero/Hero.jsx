@@ -7,7 +7,7 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 // import RocketIllustration from '../../../../public/svg/illustrations/Rocket';
-import image1 from '../../../../public/images/Illustration-1.jpeg';
+import image1 from '../../../../public/images/Illustration-1.png';
 import { useTranslation } from 'next-i18next';
 import { ImageStyled } from './styles';
 
@@ -22,7 +22,8 @@ const Hero = () => {
     <Grid container spacing={4}>
       <Grid item container alignItems={'center'} xs={12} md={6}>
         <Box data-aos={isMd ? 'fade-right' : 'fade-up'}>
-          <Box marginBottom={2}>
+          <Box marginBottom={2}
+              sx={{ minHeight: 290 }}>
             <Typography
               variant="h2"
               color="textPrimary"

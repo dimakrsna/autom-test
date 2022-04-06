@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import { ImageStyled } from './styles';
 // import droneImage from '../../../../public/images/drone.png';
-import image2 from '../../../../public/images/Illustration-2.jpeg';
+import image2 from '../../../../public/images/Illustration-2.png';
 import { useTranslation } from 'next-i18next';
 
 const AutomatedDriving = () => {

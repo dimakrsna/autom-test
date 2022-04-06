@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Container from '../../common/Container';
+import { useRouter } from 'next/router';
 import {
   Headline,
   Content,
@@ -9,6 +10,15 @@ import {
 
 const DownloadDataset = () => {
   const theme = useTheme();
+  const router = useRouter();
+
+  useEffect(()=>{
+    const automatumIsCanGetDataset = JSON.parse(sessionStorage.getItem('automatumIsCanGetDataset'))
+    if(automatumIsCanGetDataset !== true){
+      router.push('/get-free-dataset');
+    }
+  })
+
   return (
     <Box>
       <Box

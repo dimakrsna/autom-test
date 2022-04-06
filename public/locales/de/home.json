@@ -1,25 +1,25 @@
 {
-  "simulate-all-scenarios": "Simuliere alle Scenarios",
-  "really-exist": "die wirklich existieren!",
-  "you-can-imagine": "die du dir vorstellen kannst.",
+  "simulate-all-scenarios": "Simulieren Sie alle Szenarien die",
+  "really-exist": "in der Realität existieren!",
+  "you-can-imagine": "die Sie sich vorstellen können!",
   "you-define-the-scenario": "Sie definieren das Scenario, wir liefern die Daten. Ground Truth Bewegunsdaten aus Top View Videos in höchster Präzision.",
   
 
-  "scaling-real-world": "Skaliere das Verhalten der echten Welt in deine Simulation",
-  "dont-approximate-the-real-world": "Nähere dich nicht der realen Welt – benutze sie!",
+  "scaling-real-world": "Skalieren Sie das Verhalten der echten Welt in Ihrer Simulation",
+  "dont-approximate-the-real-world": "Approximieren Sie nicht die realen Welt – verwenden Sie sie!",
   "automated-driving-needs-scaled-verification": "Automatisiertes Fahren braucht Validirung die skaliert",
-  "the-real-world-variance": "Die Varianz der realen Welt muss Teil ihrer Test sein was eine Herausforderung ist. Scenariobasiertes Testen macht das Problem handhabbar.",
+  "the-real-world-variance": "Die Varianz der realen Welt muss in Ihrer Testumgebung abgebildet werden, und das ist eine Herausforderung. Datengetriebenes scenariobasiertes Testen macht das Problem handhabbar.",
   "instead-of-manually-approximate": "Anstatt jedes Szenario manuell zu approximieren, verwenden Sie echte Verkehrsdaten, um Ihre Level-3-Funktionen mit echtem menschlichem Fahrverhalten zu konfrontieren.",  
-  "from-air-to-traffic-data": "Aus der Luft zu Verkehrsdaten",
+  "from-air-to-traffic-data": "Vom Himmel in die Simulation",
   "top-view-footage": "Aufnahmen aus der Vogelperspektive werden von der KI verarbeitet, um hochpräzise Fahrtrajektoren zu generieren. Eine vollautomatische Pipeline speist eine kontinuierlich wachsende Datenbank mit Szenarien.",
   "we-deliver-suitable-data": "Wir liefern die passende Daten direkt für Ihre bestehende Simulationsumgebung.",
   
 
-  "our-traffic-reports": "Unsere Verkehrsmeldungen",
+  "our-traffic-reports": "Unsere Angebot",
   "datasets": "Datensätze",
   "we-provide-fixed-datasets": "Wir bieten verschiedene feste Themen-Datensätze an, die mehrere Stunden Verkehr aus verschiedenen Situationen enthalten.",
-  "data-as-a-service": "Data as a service",
-  "you-know-your-requirements": "Sie kennen Ihre Anforderungen oder Sie haben bereits das Filmmaterial? Wir liefern Ihren privaten Datensatz. Inklusive statischer und dynamischer Welt.",
+  "data-as-a-service": "Data as a Service",
+  "you-know-your-requirements": "Sie kennen Ihre Anforderungen oder Sie haben bereits das Filmmaterial? Wir liefern Ihren exklusiven Datensatz. Inklusive statischer und dynamischer Welt.",
   "data-utility": "Data Utility",
   "all-datasets-come-with-a-rich-utility": "Alle Datensätze kommen mit umfangreichen Utilitys, um so schnell wie möglich loslegen zu können.",
   
@@ -36,14 +36,14 @@
   "cross-correlation-of-vehicle-acceleration": "Kreuzkorrelation der Fahrzeugbeschleunigung:",
   "the-dataset-and-validation-was-peer-reviewed": "Der Datensatz und die Validierung wurden von Experten begutachtet und auf der IEEE-Konferenz IV2021 veröffentlicht.",
   "get-the-paper": "Paper Download",
-  "free-dataset": "OpenSource Datensatz",
+  "free-dataset": "Autobahn Open",
   "driven-kilometres": "Gefahrene Kilometer",
   "hours-of-recording": "Stunden Material",
-  "locations": "Verschiedene Orte:",
+  "locations": "Schlüssel Eigenschaften:",
   "german-highway": "Deutsche Autobahn",
   "free-floating-trafic": "Verkehr im freien Fluss",
   "completely-free": "Absolut kostenlos, frei auch zur komerziellen Nutzung",
-  "highwaysn-ramps": "Autobahn und Auffahrten",
+  "highwaysn-ramps": "Autobahn Ramps",
   "highway-ramps": "Autobahnauffahrten",
   "traffic-jam": "Stau",
   "construction-site": "Baustellen",
@@ -56,11 +56,11 @@
 
 
   "open-automatum-processing-utility": "Open Automatum Processing Utility",
-  "to-make-the-work-with-our-data": "Um die Arbeit mit unseren Daten so einfach wie möglich zu machen, stellen wir unser eigenes Python-Dienstprogramm zur Verfügung, um die Daten einzubinden. Installieren Sie unser kostenloses Python-Dienstprogramm einfach mit pip install openautomatumdronedata",
-  "get-our-free-python": "Holen Sie sich unser kostenloses Python-Dienstprogramm mit pip install openautomatumdronedata",
-  "get-the-utility": "Get the utility",
-  "installation": "Installation",
-  "see-how-fast-you-install": "So schnell installieren Sie das Dienstprogramm und laden Ihre erste Aufnahme",
+  "to-make-the-work-with-our-data": "Um die Arbeit mit unseren Daten so einfach wie möglich zu machen, stellen wir unser eigenes Python-Dienstprogramm zur Verfügung, um die Daten einzubinden.",
+  "get-our-free-python": "Installieren Sie sich unser kostenloses Python-Dienstprogramm mit pip.",
+  "get-the-utility": "Sourcecode",
+  "installation": "Laden von Aufnahmen",
+  "see-how-fast-you-install": "Laden sie einen Datensatz mit wenigen Zeilen Python Code und greifen Sie auf die dynamischen und statischen Daten zu. ",
   "interaction-with-the-data": "Interaktion mit den Daten",
   "access-all-objects": "Greifen Sie auf alle Objekte zu und sehen Sie sich deren Parameter an",
   "documentation": "Dokumentation",
@@ -74,7 +74,7 @@
 
 
   "get-in-touch": "Kontaktieren Sie uns",
-  "we-help-big-ideas": "Wir helfen, große Ideen zu Erlebnissen zu machen",
+  "we-help-big-ideas": "Wir freuen uns von Ihnen zu hören.",
   "tell-us-your-first-name": "Bitte verraten Sie uns Ihren Namen *",
   "first-name": "Vornamen",
   "tell-us-your-last-name": "Bitte nennen Sie uns Ihren Nachnamen *",
@@ -82,9 +82,12 @@
   "your-email-address": "Bitte geben Sie Ihre eMailadresse ein *",
   "email": "eMailadresse",
   "enter-your-phone-number": "Bitte geben Sie Ihre Telefonnummer ein (optional)",
-  "phone-number": "Telefonnummer",
+  "phone-number": "Telefonnummer (optional)",
   "about-your-project": "Bitte erzählen Sie uns etwas über Ihr Projekt (optional)",
-  "message": "Nachricht",
+  "message": "Ihre Nachricht",
   "send-request": "Anfrage senden",
-  "well-get-back-to-you": "Wir werden uns innerhalb von 1-2 Werktagen bei Ihnen melden."
+  "well-get-back-to-you": "Wir werden uns innerhalb von 1-2 Werktagen bei Ihnen melden.",
+
+  "status_extending": "Datensatz wird kontinuirlich erwetiert",
+  "status_done": "Datensatz ist vollständig"
 }

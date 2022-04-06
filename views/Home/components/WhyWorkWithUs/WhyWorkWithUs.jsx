@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Typography from '@mui/material/Typography';
 import { colors } from '@mui/material';
-import PrecisionManufacturingIcon from '@mui/icons-material/PrecisionManufacturing';
+import CodeIcon from '@mui/icons-material/Code';
 import { ALink, CodeStyled } from './styles';
 import { useTranslation } from 'next-i18next';
 
@@ -53,7 +53,7 @@ const WhyWorkWithUs = () => {
               color="primary"
               size="large"
               fullWidth={!isMd}
-              startIcon={<PrecisionManufacturingIcon />}
+              startIcon={<CodeIcon />}
             >
               {t('get-the-utility')}
             </Box>

@@ -1,21 +1,21 @@
 {
   "simulate-all-scenarios": "Simulate all scenarios that",
   "really-exist": "really exist!",
-  "you-can-imagine": "you can imagine.",
+  "you-can-imagine": "you can imagen.",
   "you-define-the-scenario": "You define the scenario, we deliver the data. Ground truth motion data from top view capturings in highes precision.",
   
 
   "scaling-real-world": "Scaling real world behaviour into your simulation",
-  "dont-approximate-the-real-world": "Don’t approximate the real world – use it!",
+  "dont-approximate-the-real-world": "Don't approximate the real world - use it!",
   "automated-driving-needs-scaled-verification": "Automated driving needs scaled verification",
-  "the-real-world-variance": "The real world variance has to be part of your testing, what can be challenging. Scenario based testing transforms this problem to something hand able.",
+  "the-real-world-variance": "The real world variance has to be part of your testing, what can be challenging. Data driven scenario based testing transforms this problem to something hand able.",
   "instead-of-manually-approximate": "Instead of manually approximate every scenario use real traffic data to challenge your Level 3 functions with real human driving behaviour.",  
   "from-air-to-traffic-data": "From air to traffic data",
   "top-view-footage": "Top view footage is processed by AI to generate high precision driving trajectory’s. A fully automated pipeline is feeding a continuously growing database of scenarios.",
   "we-deliver-suitable-data": "We deliver suitable data directly for your existing simulation environment.",
   
 
-  "our-traffic-reports": "Our traffic reports",
+  "our-traffic-reports": "Our offer",
   "datasets": "Datasets",
   "we-provide-fixed-datasets": "We provide fixed datasets As a complete package to feed Your simulation.",
   "data-as-a-service": "Data as a service",
@@ -36,14 +36,14 @@
   "cross-correlation-of-vehicle-acceleration": "cross correlation of vehicle acceleration",
   "the-dataset-and-validation-was-peer-reviewed": "The dataset and validation was peer reviewed and published at IEEE conference IV2021.",
   "get-the-paper": "Get the paper",
-  "free-dataset": "OpenSource Dataset",
+  "free-dataset": "Open Highway",
   "driven-kilometres": "Driven kilometres",
   "hours-of-recording": "Hours of recording",
-  "locations": "Locations:",
+  "locations": "Key-Features:",
   "german-highway": "German highway",
   "free-floating-trafic": "Free floating trafic",
   "completely-free": "Completely free, also for commercial use",
-  "highwaysn-ramps": "Highways ‘n Ramps",
+  "highwaysn-ramps": "Highways Ramps",
   "highway-ramps": "Highway ramps",
   "traffic-jam": "Traffic jam",
   "construction-site": "Construction site",
@@ -57,10 +57,10 @@
 
   "open-automatum-processing-utility": "Open Automatum Processing Utility",
   "to-make-the-work-with-our-data": "To make the work with our data as easy as possible, we provide our own Python utility to interface the data.",
-  "get-our-free-python": "Get our free python utility with pip install openautomatumdronedata",
-  "get-the-utility": "Get the Utility",
-  "installation": "Installation",
-  "see-how-fast-you-install": "See how fast you install the utility and load your first recording",
+  "get-our-free-python": "Get our free python utility with pip.",
+  "get-the-utility": "To Source",
+  "installation": "Load a Recording",
+  "see-how-fast-you-install": "Load a data set with a few lines of Python code and access the dynamic and static data. ",
   "interaction-with-the-data": "Interaction with the data",
   "access-all-objects": "Access all objects and see the paramters",
   "documentation": "Documentation",
@@ -74,7 +74,7 @@
 
 
   "get-in-touch": "Get in touch with us",
-  "we-help-big-ideas": "We help big ideas into experiences",
+  "we-help-big-ideas": "We would be happy if you reach out.",
   "tell-us-your-first-name": "Please tell us your first name *",
   "first-name": "First name",
   "tell-us-your-last-name": "Please tell us your last name *",
@@ -82,9 +82,12 @@
   "your-email-address": "Please enter your email address *",
   "email": "Email",
   "enter-your-phone-number": "Please enter your phone number (optional)",
-  "phone-number": "Phone number",
+  "phone-number": "Phone number (optional)",
   "about-your-project": "Please tell us about your project (optional)",
-  "message": "Message",
+  "message": "Your message ...",
   "send-request": "Send request",
-  "well-get-back-to-you": "We'll get back to you in 1-2 business days."
+  "well-get-back-to-you": "We'll get back to you in 1-2 business days.",
+
+  "status_extending": "Dataset is continuously extending",
+  "status_done": "Dataset is complete"
 }

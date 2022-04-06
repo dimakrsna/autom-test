@@ -5,7 +5,7 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 // import droneImage from '../../../../public/images/drone.png';
-import image3 from '../../../../public/images/Illustration-3.jpeg';
+import image3 from '../../../../public/images/Illustration-3.png';
 import { ImageStyled } from './styles';
 import { useTranslation } from 'next-i18next';
 

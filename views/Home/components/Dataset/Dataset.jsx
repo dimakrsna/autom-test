@@ -13,6 +13,8 @@ import ListItemAvatar from '@mui/material/ListItemAvatar';
 import FilePresentIcon from '@mui/icons-material/FilePresent';
 import { useTranslation } from 'next-i18next';
 
+import CheckIcon from '@mui/icons-material/Check';
+
 const Dataset = () => {
   const theme = useTheme();
   const { t } = useTranslation('home');
@@ -62,23 +64,13 @@ const Dataset = () => {
                       >
                         <Box
                           component={Avatar}
-                          bgcolor={theme.palette.secondary.main}
+                          color={theme.palette.primary.main}
+                          bgcolor={theme.palette.background.paper}
                           width={20}
                           height={20}
                         >
-                          <svg
-                            width={12}
-                            height={12}
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                              clipRule="evenodd"
-                            />
-                          </svg>
+                          <CheckIcon/>
+                          
                         </Box>
                       </Box>
                       <ListItemText primary={item} />
@@ -127,23 +119,12 @@ const Dataset = () => {
                       >
                         <Box
                           component={Avatar}
-                          bgcolor={theme.palette.secondary.main}
+                          color={theme.palette.primary.main}
+                          bgcolor={theme.palette.background.paper}
                           width={20}
                           height={20}
                         >
-                          <svg
-                            width={12}
-                            height={12}
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                              clipRule="evenodd"
-                            />
-                          </svg>
+                          <CheckIcon/>
                         </Box>
                       </Box>
                       <ListItemText primary={item} />

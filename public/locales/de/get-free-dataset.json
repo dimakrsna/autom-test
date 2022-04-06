@@ -6,8 +6,8 @@
 
   
   "hire-us": "Hire us",
-  "get-the-complete-dataset": "Holen Sie sich den kompleEen Datensatz kostenlos",
-  "please-give-us-some-hints": "Biten teilen Sie ein paar Infos mit uns, wer Sie sind, wofür Sie die Daten benutzen möchten und welche Daten Sie in Zukun^ gebrauchen könnten. Das Ausfüllen dieser Umfrage ist völlig freiwillig, wird aber sehr dazu beitragen, in Zukunft noch bessere Daten bereitzustellen.",
+  "get-the-complete-dataset": "Holen Sie sich den kompletten Datensatz kostenlos!",
+  "please-give-us-some-hints": "Bitte teilen Sie ein paar Infos mit uns: Wer Sie sind, wofür Sie die Daten benutzen möchten und welche Daten Sie in Zukunft gebrauchen könnten. Das Ausfüllen dieser Umfrage ist völlig freiwillig, wird aber sehr dazu beitragen, in Zukunft noch bessere Daten bereitzustellen.",
   "tell-us-your-first-name": "Bitte verraten Sie uns Ihren Namen *",
   "first-name": "Vornamen",
   "tell-us-your-last-name": "Bitte nennen Sie uns Ihren Nachnamen *",
@@ -15,7 +15,7 @@
   "your-email-address": "Bitte geben Sie Ihre eMailadresse ein *",
   "email": "eMailadresse",
   "enter-your-phone-number": "Bitte geben Sie Ihre Telefonnummer ein (optional)",
-  "phone-number": "Phone number",
+  "phone-number": "Telefonnummer",
   "company-optional": "Firma",
   "company": "Firma",
   "what-dataset-for": "Für was möchten Sie die Daten verwenden?",
